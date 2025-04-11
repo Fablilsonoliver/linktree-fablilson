@@ -1,0 +1,101 @@
+@import url("./effects.css");
+
+*{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+   background-color: rgb(8, 8, 8);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    animation: gradientShift 10s esse infinite;
+    background-size: 400%;
+}
+
+
+.container-main{background-color: rgb(125, 123, 123); width: 450px;
+    height: 720px;
+    box-sizing: border-box;
+    margin: 120px auto;
+    padding: 60px 80px;
+    border-radius: 60px;
+    text-align: center;
+}    
+.container-image img {
+        margin: 10px;
+        width: 60px;
+        border-radius: 100px;
+}
+.container-infos{
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+.container-infos h1{
+    font-weight: 500;
+}
+.container-infos h2{
+    color: rgb(240, 9, 9);
+    font-weight: 500;
+    font-size: 18px;
+}
+.container-easter-egg{
+    color: rgb(246, 242, 242);
+}
+.container-social ul {
+    list-style-type: none;
+}
+.container-social a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-social {
+    margin-top: 40px;
+}
+.container-social li{
+    width: 280px;
+    height: 40px;
+    background-color: aqua;
+    margin: 9px 0;
+    padding: 8px 0;
+    border-radius: 20px;
+}
+
+.container-social li {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    background-color: blue;
+    margin: 15px 0;
+    border-radius: 20px;
+    font-weight: 700px;
+    transition-duration: 0.6s;
+
+    &:hover {
+        background-color: black;
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
